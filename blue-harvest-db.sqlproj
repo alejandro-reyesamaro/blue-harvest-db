@@ -67,8 +67,9 @@
     <Build Include="dbo\Tables\Transaction.sql" />
     <Build Include="dbo\Tables\Injection.sql" />
     <Build Include="dbo\Views\DetailedTransaction.sql" />
+    <Build Include="dbo\Views\DetailedAccount.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="dbo\Scripts\Seed4Test.sql" />
+    <None Include="dbo\Scripts\Database.Properties.Dev.NoBuild.sql" />
   </ItemGroup>
 </Project>
